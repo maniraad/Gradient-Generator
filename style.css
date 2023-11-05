@@ -37,8 +37,12 @@ input[type="color"]{
     cursor: pointer;
 }
 input[type="color"]::-webkit-color-swatch{
-    border-radius: 20px;
+    border-radius: 16px;
     border: none;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
 }
 .buttons{
     width: 100%;
@@ -63,7 +67,7 @@ input[type="color"]::-webkit-color-swatch{
     background-color: #4a6ee0;
     color: #ffffff;
 }
-#submit{
+.submit{
     background-color: #4a6ee0;
     color: #ffffff;
     font-size: 16px;
