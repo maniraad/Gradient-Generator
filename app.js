@@ -9,8 +9,6 @@ const codeTextArea = $.querySelector('#code');
 const copyBtn = $.querySelector('#copy');
 let currentDirection = 'to top'
 
-console.log(directions);
-
 const setDirection = (direction, directionElem) => {
     for (let item of directions) {
         item.classList.remove('active')
@@ -59,6 +57,3 @@ generatorBtn.addEventListener('click',generateCssCode)
 copyBtn.addEventListener('click',copyCodeCss)
 randomGeneratorBtn.addEventListener('click',generateCssCodeRandom)
 generateCssCode()
-
-console.log(Math.random());
-
