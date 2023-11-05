@@ -64,14 +64,17 @@ input[type="color"]::-webkit-color-swatch{
     color: #ffffff;
 }
 #submit{
-    display: block;
     background-color: #4a6ee0;
     color: #ffffff;
     font-size: 16px;
-    padding: 12px 70px;
-    border-radius: 25px;
+    padding: 13px 16px;
+    border-radius: 15px;
     margin: 0 auto 30px auto;
     cursor: pointer;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 .output{
     background-color: #f0f2fc;
@@ -93,4 +96,7 @@ input[type="color"]::-webkit-color-swatch{
     border-radius: 3px;
     padding: 5px;
     cursor: pointer;
+}
+.btn-wrapper{
+    display: flex;
 }
