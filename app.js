@@ -1,8 +1,11 @@
 const $ = document;
 
-let colorInputA = $.querySelector('#color-a');
-let colorInputB = $.querySelector('#color-b');
-const buttons = $.querySelectorAll('.buttons')
+const firstColorInput= $.querySelector('#color-a');
+const secondColorInput= $.querySelector('#color-b');
+const directions = $.querySelectorAll('.buttons button');
+const generatorBtn= $.querySelector('#submit');
+const codeTextArea= $.querySelector('#code');
+const copyBtn= $.querySelector('#copy');
 let body = $.body;
 
-console.log(colorInputA.value);
+console.log(directions);
